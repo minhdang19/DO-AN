@@ -64,6 +64,6 @@ void loop() {
        myservo.write(120); //Ajust how far you want the servo to go.
        delay(1000);
        myservo.write(00); // Reset the servo to 0 Degrees
-       delay(2500);   //Delay the next time someone can get soap
+       delay(25000000);   //Delay the next time someone can get soap
     }                 
 }
